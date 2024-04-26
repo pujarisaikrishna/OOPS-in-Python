@@ -1,0 +1,21 @@
+class data:
+    def __init__(self, name,profession,company,salary):
+        self.name = name
+        self.profession = profession
+        self.company = company
+        self.salary = salary
+
+    def display(self):
+        print("name :", self.name)
+        print("profession :", self.profession)
+        print("company :", self.company)
+        print("salary :", self.salary)
+
+d1 = data("john","software engineer","Hcl",70000)
+d2 = data("mike","software developer","Google",50000)
+d3 = data("justin","Data analyst","Amazon",90000)
+
+
+d1.display()
+d2.display()
+d3.display()
